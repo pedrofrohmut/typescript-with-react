@@ -13,8 +13,28 @@ packages and types using npm.
 
 4. Checkout and edit the ~/tsconfig.json
 
-5. Adding Eslint to the project:
+5. Adding Eslint, Prettier and TypeScript to the project:
    $ npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-prettier eslint-plugin-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-import-resolver-typescript
+
+  5.1 Easier to read (updated):
+    
+    yarn add --dev
+
+    ESLINT
+      eslint
+      eslint-plugin-react
+      eslint-plugin-react-hooks
+      eslint-config-airbnb
+      eslint-plugin-jsx-a11y
+      eslint-plugin-import
+      eslint-import-resolver-typescript 
+    PRETTIER
+      prettier
+      eslint-config-prettier
+      eslint-plugin-prettier
+    TYPES:
+      @typescript-eslint/eslint-plugin
+      @typescript-eslint/parser
 
 6. Create a ~/.eslintrc.js (optionally you can copy this repo eslintrc.js)
 
